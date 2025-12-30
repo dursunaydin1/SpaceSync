@@ -2,6 +2,8 @@
 
 > A modern, full-stack project management SaaS application built with Next.js 15 and Supabase.
 
+![SpaceSync Demo](./public/screen.gif)
+
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-green?style=flat-square&logo=supabase)

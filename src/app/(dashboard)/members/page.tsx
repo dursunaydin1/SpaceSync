@@ -175,7 +175,7 @@ export default function MembersPage() {
             {members.map((member) => (
               <div
                 key={member.user_id}
-                className="group flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-2xl border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/30 transition-all gap-4 sm:gap-0"
+                className="group flex items-center justify-between p-4 rounded-2xl border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/30 transition-all"
               >
                 <div className="flex items-center gap-4">
                   <div className="relative">
@@ -207,7 +207,7 @@ export default function MembersPage() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-6 mt-4 sm:mt-0 w-full sm:w-auto justify-between sm:justify-end">
+                <div className="flex items-center gap-6">
                   <div
                     className={`text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-lg border ${
                       member.role === "owner"
@@ -223,7 +223,7 @@ export default function MembersPage() {
                   {member.role !== "owner" && (
                     <button
                       onClick={() => handleRemove(member.user_id)}
-                      className="p-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 hover:bg-red-500/10 hover:text-red-500 text-neutral-600 rounded-xl transition-all"
+                      className="p-2 opacity-0 group-hover:opacity-100 hover:bg-red-500/10 hover:text-red-500 text-neutral-600 rounded-xl transition-all"
                     >
                       <Trash2 className="w-4 h-4" />
                     </button>
