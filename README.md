@@ -2,6 +2,8 @@
 
 > A modern, full-stack project management SaaS application built with Next.js 15 and Supabase.
 
+**Live Demo:** [https://space-sync-nine.vercel.app/login](https://space-sync-nine.vercel.app/login)
+
 ![SpaceSync Demo](./public/screen.gif)
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)
